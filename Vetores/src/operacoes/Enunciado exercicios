@@ -1,0 +1,60 @@
+5 Exercícios
+
+5.1 Exercício 1
+
+Crie uma classe OperacoesArray
+
+Na classe, implemente um método que verifica se todos os números de um array de inteiros recebido por parâmetro são diferentes uns dos outros (em outras palavras, se o array contém elementos distintos)
+
+public boolean temElementosDistintos(int[] array) { 
+  ... 
+}
+5.2 Exercício 2
+
+Na classe, implemente um método que recebe por parâmetro um array de inteiros e determina se existe um par de números em que o produto seja um número ímpar
+
+public boolean temParProdutoImpar(int[] array) { 
+   ... 
+}
+5.3 Exercício 3
+
+Na classe, crie um método que recebe dois arrays de inteiros por parâmetro, e que retorne um array com a união dos dois arrays recebidos por parâmetro
+
+public int[] uniao(int[] array1, int[] array2) { 
+   ... 
+}
+5.4 Exercício 4
+
+Na classe, escreva um método que recebe um array de inteiros por parâmetro e retorna uma cópia deste array ordenado do maior para o menor
+
+O array passado por parâmetro não deve ser alterado
+
+public int[] getCopiaOrdenada(int[] array) { 
+   ... 
+}
+5.5 Exercício 5
+
+Considerando o exercício GameEntry apresentado, faça todas as alterações necessárias na classe Scores para que o tipo do atributo scores seja trocado de um ArrayList para um array:
+
+private GameEntry[] scores;
+5.6 Exercício 6
+
+Na classe OperacoesArray, escreva um método que recebe por parâmetro uma matriz e retorna a soma dos elementos da sua diagonal principal
+
+public int getSomaDiagonal(int[][] mat) {
+     ...
+}
+5.7 Exercício 7
+
+Considerando a classe JogoVelha mostrada anteriormente, apresente a implementação do método abaixo, que deve verificar se alguém venceu o jogo ou se houve empate, e retornar esta informação
+
+A String retornada deve conter uma das seguintes mensagens: "Empate", "X é o vencedor", "O é o vencedor"
+
+public String vencedor() {
+     ...
+}
+5.8 Bibliografia recomendada
+
+Horstmann, capítulo 7 (Arrays e ArrayLists)
+
+Goodrich, seções 1.5 (Arrays) e 3.1.1 (Usando arrays)
